@@ -89,7 +89,7 @@ header .header-logo .header-logo-img {
     padding: 12px;
 }
 
-header .header-a-arg {
+/* header .header-a-arg {
     display: grid;
     grid-area: banderaArg;
     height: 100%;
@@ -119,7 +119,7 @@ header .header-a-uk .header-a-icono-uk {
     height: 100%;
     object-fit: contain;
     padding: 6px;
-}
+} */
 
 header .boton-header {
     height: 10vh;
@@ -144,8 +144,8 @@ header .boton-header label {
 }
 
 header .boton-header label .logo-menu {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
     object-fit: cover;
     padding: 17px;
     animation-name: pulsate-bck;
@@ -154,7 +154,7 @@ header .boton-header label .logo-menu {
 }
 
 header .boton-header .menu-desplegable {
-    background-color: rgb(255, 206, 179);
+    background-color: #0c182cf9;
     height: 500px;
     width: 100vw;
     display: none;
@@ -169,7 +169,7 @@ header .boton-header .menu-desplegable {
 header .boton-header .menu-desplegable .menu-desplegable-texto {
     font-size: calc(12px + 1vw);
     font-weight: 600;
-    color: rgba(64, 64, 64, 0.8549019608);
+    color: rgba(255, 206, 179);
     width: 200px;
     text-align: center;
 }
@@ -187,7 +187,7 @@ header .boton-header input:checked~.menu-desplegable .menu-desplegable-texto:hov
 
 /* header media screen */
 @media screen and (min-width: 480px) {
-    header .header-a-arg {
+    /* header .header-a-arg {
         display: grid;
         grid-area: banderaArg;
         height: 100%;
@@ -217,7 +217,7 @@ header .boton-header input:checked~.menu-desplegable .menu-desplegable-texto:hov
         height: 100%;
         object-fit: contain;
         padding: 10px;
-    }
+    } */
 
     header .boton-header label .logo-menu {
         width: 40%;
@@ -289,10 +289,21 @@ header .boton-header input:checked~.menu-desplegable .menu-desplegable-texto:hov
 .portada {
     width: 100%;
     height: 100vh;
-    background-color: #ffc72c;
+    background-color: rgb(255, 206, 179);
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.portada::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-image: linear-gradient(to right, rgba(245, 115, 79, 0.158), rgba(255, 206, 179, 0.136));
 }
 
 .portada .portada-video {
@@ -321,7 +332,7 @@ header .boton-header input:checked~.menu-desplegable .menu-desplegable-texto:hov
 
 .portada .portada-titulo-h1 {
     display: inline-block;
-    width: 300px;
+    width: 250px;
     position: relative;
     font-size: min(22px + 1vw, 25.6px);
     font-weight: bold;
@@ -470,8 +481,8 @@ header .boton-header input:checked~.menu-desplegable .menu-desplegable-texto:hov
 .seccion-2 .seccion-2-btns .seccion-2-btns-brochure {
     width: 40vw;
     height: 40px;
-    border: 2px #404040 solid;
-    background-color: #404040;
+    border: 2px #0C182C;
+    background-color: #0C182C;
     border-radius: 40px;
     display: flex;
     flex-direction: column;
@@ -483,17 +494,17 @@ header .boton-header input:checked~.menu-desplegable .menu-desplegable-texto:hov
 .seccion-2 .seccion-2-btns .seccion-2-btns-brochure .seccion-2-btns-brochure-texto {
     font-size: 14px;
     font-weight: 300;
-    color: white;
+    color: rgb(255, 206, 179);
     transition: 0.5s;
 }
 
 .seccion-2 .seccion-2-btns .seccion-2-btns-brochure:hover {
-    border: 2px #ffc72c solid;
-    background-color: #ffc72c;
+    border: 2px #0c182cf9 solid;
+    background-color: #0C182C;
 }
 
 .seccion-2 .seccion-2-btns .seccion-2-btns-brochure:hover .seccion-2-btns-brochure-texto {
-    color: #404040;
+    color: rgb(255, 206, 179);
     font-weight: bold;
 }
 
@@ -1194,7 +1205,7 @@ footer .footer-copyright p {
     align-items: center;
 }
 
-.venta-servicios-productos-h2{
+.venta-servicios-productos-h2 {
     margin: 30px 0;
 }
 
@@ -1205,7 +1216,7 @@ footer .footer-copyright p {
 .imagenes-tarjetas {
     width: 100%;
     height: 180px;
-    object-fit: fit;
+    object-fit: cover;
 }
 
 .card-space {
@@ -1217,7 +1228,7 @@ footer .footer-copyright p {
     margin-right: 30px;
 }
 
-.tamaño-boton{
+.tamaño-boton {
     width: 30%;
     font-size: 0.7rem;
 }

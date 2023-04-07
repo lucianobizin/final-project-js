@@ -16,7 +16,7 @@ const revolucionSolar = new Astrologia(1.2, 'Revolucón solar', 20, 'Diagrama y 
 const transitos = new Astrologia(1.3, 'Tránsitos', 18, 'Documento PDF con análisis de influencias', 7, "transitos.jpg");
 const progresiones = new Astrologia(1.4, 'Progresiones', 18, 'Documento PDF con riesgos y oportunidades', 7, "progresiones.jpg");
 const sinestrias = new Astrologia(1.5, 'Sinestrías', 20, 'Documento PDF explicativo y videos', 7, "sinestria.jpg");
-const analisisCompletoMBTI = new Astrologia (1.6, 'Análisis Completo MBTI', 50, 'Documento PDF explicativo y videos', 60, "mbti.jpg")
+const analisisCompletoMBTI = new Astrologia (1.6, 'Análisis Completo + MBTI', 50, 'Documento PDF explicativo y videos', 60, "mbti.jpg")
 
 const astrologia = [cartaNatal, revolucionSolar, transitos, progresiones, sinestrias, analisisCompletoMBTI];
 

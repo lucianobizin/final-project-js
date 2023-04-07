@@ -20,7 +20,7 @@ for (const elemento of astrologia) {
 
     let div = document.createElement("div");
     div.innerHTML =
-        `<div class='card' style='width: 18rem; '> 
+        `<div class='card'> 
         <img class='card-img-top imagenes-tarjetas' src='../img/${elemento.imagen}' alt='Card image cap'> 
         <div class='card-body '> 
             <h5 class='card-title'>${elemento.nombre}</h5> 
@@ -101,7 +101,7 @@ for (const elemento of tarot) {
 
     let div = document.createElement("div");
     div.innerHTML =
-        `<div class='card' style='width: 18rem; '> 
+        `<div class='card'> 
         <img class='card-img-top imagenes-tarjetas' src='../img/${elemento.imagen}' alt='Card image cap'> 
         <div class='card-body '> 
             <h5 class='card-title'>${elemento.nombre}</h5> 
@@ -182,7 +182,7 @@ for (const elemento of tiradasDadosYRunas) {
 
     let div = document.createElement("div");
     div.innerHTML =
-        `<div class='card' style='width: 18rem; '> 
+        `<div class='card'> 
         <img class='card-img-top imagenes-tarjetas' src='../img/${elemento.imagen}' alt='Card image cap'> 
         <div class='card-body '> 
             <h5 class='card-title'>${elemento.nombre}</h5> 
@@ -263,7 +263,7 @@ for (const elemento of talleres) {
 
     let div = document.createElement("div");
     div.innerHTML =
-        `<div class='card' style='width: 18rem; '> 
+        `<div class='card'> 
         <img class='card-img-top imagenes-tarjetas' src='../img/${elemento.imagen}' alt='Card image cap'> 
         <div class='card-body '> 
             <h5 class='card-title'>${elemento.nombre}</h5> 
@@ -344,7 +344,7 @@ for (const elemento of eventos) {
 
     let div = document.createElement('div');
     div.innerHTML =
-        `<div class='card' style='width: 18rem; '> 
+        `<div class='card'> 
         <img class='card-img-top imagenes-tarjetas' src='../img/${elemento.imagen}' alt='Card image cap'> 
         <div class='card-body '> 
             <h5 class='card-title'>${elemento.nombre}</h5> 
@@ -426,7 +426,7 @@ for (const elemento of productos) {
 
     let div = document.createElement("div");
     div.innerHTML =
-        `<div class='card' style='width: 18rem; '> 
+        `<div class='card'> 
         <img class='card-img-top imagenes-tarjetas' src='../img/${elemento.imagen}' alt='Card image cap'> 
         <div class='card-body '> 
             <h5 class='card-title'>${elemento.nombre}</h5> 
