@@ -41,7 +41,7 @@ for (const elemento of astrologia) {
         const swalWithBootstrapButtons = Swal.mixin({
             customClass: {
                 confirmButton: 'btn btn-success',
-                cancelButton: 'btn btn-danger'
+                cancelButton: 'btn btn-danger margin-right-cancel-button'
             },
             buttonsStyling: false
         })
@@ -122,7 +122,7 @@ for (const elemento of tarot) {
         const swalWithBootstrapButtons = Swal.mixin({
             customClass: {
                 confirmButton: 'btn btn-success',
-                cancelButton: 'btn btn-danger'
+                cancelButton: 'btn btn-danger margin-right-cancel-button'
             },
             buttonsStyling: false
         })
@@ -203,7 +203,7 @@ for (const elemento of tiradasDadosYRunas) {
         const swalWithBootstrapButtons = Swal.mixin({
             customClass: {
                 confirmButton: 'btn btn-success',
-                cancelButton: 'btn btn-danger'
+                cancelButton: 'btn btn-danger margin-right-cancel-button'
             },
             buttonsStyling: false
         })
@@ -284,7 +284,7 @@ for (const elemento of talleres) {
         const swalWithBootstrapButtons = Swal.mixin({
             customClass: {
                 confirmButton: 'btn btn-success',
-                cancelButton: 'btn btn-danger'
+                cancelButton: 'btn btn-danger margin-right-cancel-button'
             },
             buttonsStyling: false
         })
@@ -366,7 +366,7 @@ for (const elemento of eventos) {
         const swalWithBootstrapButtons = Swal.mixin({
             customClass: {
                 confirmButton: 'btn btn-success',
-                cancelButton: 'btn btn-danger'
+                cancelButton: 'btn btn-danger margin-right-cancel-button'
             },
             buttonsStyling: false
         })
@@ -447,7 +447,7 @@ for (const elemento of productos) {
         const swalWithBootstrapButtons = Swal.mixin({
             customClass: {
                 confirmButton: 'btn btn-success',
-                cancelButton: 'btn btn-danger'
+                cancelButton: 'btn btn-danger margin-right-cancel-button'
             },
             buttonsStyling: false
         })
