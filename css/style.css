@@ -275,6 +275,12 @@ header .boton-header input:checked~.menu-desplegable .menu-desplegable-texto:hov
         padding: 15px 10px 22px 10px;
     }
 
+    header .boton-header label .logo-menu {
+        width: 60%;
+        height: 60%;
+        padding: 10px;
+    }
+
     header .boton-header {
         height: 15vh;
     }
@@ -1262,6 +1268,14 @@ footer .footer-copyright p {
 }
 
 /* carrito.html */
+
+.carrito-titulo{
+    margin-left: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-weight: bold;
+}
 
 .columnas-tabla {
     height: 30px;

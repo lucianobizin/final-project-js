@@ -1,5 +1,5 @@
 class DadosYRunas {
-    constructor(id, nombre, precio, entregable, diasParaEntrega, cantidadPreguntas, imagen) {
+    constructor(id, nombre, precio, entregable, diasParaEntrega, cantidadPreguntas, imagen, cantidad) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -7,5 +7,6 @@ class DadosYRunas {
         this.diasParaEntrega = diasParaEntrega;
         this.cantidadPreguntas = cantidadPreguntas;
         this.imagen = imagen;
+        this.cantidad = cantidad;
     }
 }

@@ -12,7 +12,8 @@ for (const elemento of arrayCarrito) {
     let trcolumna = document.createElement ("tr");
     trcolumna.innerHTML = `<tr>
     <td>${elemento.nombre}</td>
-    <td>${elemento.precio}</td>
+    <td>${elemento.cantidad}</td>
+    <td>${elemento.precio} Euros</td>
     </tr>`;
     filasCarrito.appendChild(trcolumna);
 
@@ -24,6 +25,7 @@ console.log (total)
 let trColumnaTotal = document.createElement ("tr");
 trColumnaTotal.innerHTML = `<tr>
 <td>TOTAL</td>
-<td>${total}</td>
+<td></td>
+<td>${total} Euros</td>
 </tr>`;
 totalCarrito.appendChild (trColumnaTotal);

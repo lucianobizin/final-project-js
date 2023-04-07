@@ -1,5 +1,5 @@
 class Eventos {
-    constructor(id, nombre, precio, descripción, fecha, hora, lugar, vacantes, imagen) {
+    constructor(id, nombre, precio, descripción, fecha, hora, lugar, vacantes, imagen, cantidad) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -9,5 +9,6 @@ class Eventos {
         this.lugar = lugar;
         this.vacantes = vacantes;
         this.imagen = imagen;
+        this.cantidad = cantidad;
     }
 }
