@@ -321,7 +321,7 @@ header .boton-header input:checked~.menu-desplegable .menu-desplegable-texto:hov
     justify-content: space-around;
     align-items: center;
     gap: 30px;
-    z-index: 5;
+    z-index: 1;
 }
 
 .portada .portada-titulo-imagen {
