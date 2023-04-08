@@ -1,5 +1,5 @@
 class Productos {
-    constructor(id, nombre, precio, cantidad, areaDespacho, agotado, imagen, cantidad) {
+    constructor(id, nombre, precio, cantidad, areaDespacho, agotado, imagen) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -7,6 +7,5 @@ class Productos {
         this.areaDespacho = areaDespacho;
         this.agotado = agotado;
         this.imagen = imagen
-        this.cantidad = cantidad;
     }
 }

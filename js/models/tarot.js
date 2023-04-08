@@ -1,5 +1,5 @@
 class Tarot {
-    constructor(id, nombre, precio, entregable, diasParaEntrega, cantidadPreguntas, imagen, cantidad) {
+    constructor(id, nombre, precio, entregable, diasParaEntrega, cantidadPreguntas, imagen) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
@@ -7,6 +7,5 @@ class Tarot {
         this.diasParaEntrega = diasParaEntrega;
         this.cantidadPreguntas = cantidadPreguntas;
         this.imagen = imagen;
-        this.cantidad = cantidad;
     }
 }
